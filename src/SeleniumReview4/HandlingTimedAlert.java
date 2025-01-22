@@ -46,7 +46,7 @@ public class HandlingTimedAlert extends BaseClass {
 		Thread.sleep(1000); // I want to see the Alert for 1 second
 
 		alert.accept();
-		Thread.sleep(1000); // I want to see the page after the alert is closed
+		Thread.sleep(2000); // I want to see the page after the alert is closed
 
 		tearDown();
 	}
